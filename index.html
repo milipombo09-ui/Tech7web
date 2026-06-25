@@ -1,0 +1,259 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TECH7</title>
+  <link rel="stylesheet" href="estilo.css" />
+</head>
+
+<body>
+
+<header>
+  <a href="#inicio" class="logo">TECH7</a>
+
+  <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+  <nav id="menu">
+    <a href="#conocenos" onclick="toggleMenu()">Conocé a TECH7</a>
+    <a href="#proceso-trabajo" onclick="toggleMenu()">Proceso de trabajo</a>
+    <a href="#equipo" onclick="toggleMenu()">Equipo</a>
+    <a href="#contacto" class="nav-cta" onclick="toggleMenu()">Hablemos</a>
+  </nav>
+</header>
+
+<section id="inicio" class="hero">
+  <video autoplay muted loop playsinline class="hero-video">
+    <source src="imagenes/portada.mp4" type="video/mp4" />
+  </video>
+
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content reveal">
+    <h1>Soluciones digitales simples para empresas que quieren avanzar.</h1>
+
+    <p class="hero-text">
+      Ordenamos procesos, aprovechamos datos y convertimos ideas en mejoras reales.
+    </p>
+
+    <a href="#conocenos" class="scroll-arrow">↓</a>
+  </div>
+</section>
+
+<section id="conocenos" class="video-section">
+  <p class="eyebrow reveal">CONOCENOS</p>
+
+  <h2 class="reveal">Conocé TECH7.</h2>
+
+  <p class="section-subtitle reveal">
+    Nuestra visión, proceso y soluciones en una explicación simple.
+  </p>
+
+  <div class="video-container reveal">
+    <video controls>
+      <source src="imagenes/videoplayback.mp4" type="video/mp4" />
+    </video>
+  </div>
+</section>
+
+<section id="proceso-trabajo" class="section">
+  <div class="section-header reveal">
+    <p class="eyebrow">PROCESO DE TRABAJO</p>
+
+    <h2>Tecnología clara para trabajar mejor.</h2>
+
+    <p class="section-subtitle">
+      Simplificamos procesos, ordenamos información y ayudamos a tomar mejores decisiones.
+    </p>
+  </div>
+
+  <div class="cards-grid">
+    <article class="card reveal">
+      <h3>Más claridad</h3>
+      <p>Información ordenada para decidir con más seguridad.</p>
+    </article>
+
+    <article class="card reveal">
+      <h3>Más tiempo</h3>
+      <p>Menos tareas repetitivas y más foco en lo importante.</p>
+    </article>
+
+    <article class="card reveal">
+      <h3>Mejor experiencia</h3>
+      <p>Soluciones simples para clientes y equipos internos.</p>
+    </article>
+
+    <article class="card reveal">
+      <h3>Crecimiento real</h3>
+      <p>Herramientas aplicables a necesidades concretas.</p>
+    </article>
+  </div>
+</section>
+
+<section class="section dark">
+  <div class="split">
+    <div class="reveal">
+      <p class="eyebrow">PROCESO</p>
+
+      <h2>Un proceso simple para generar cambios reales.</h2>
+
+      <p class="section-subtitle">
+        Detectamos oportunidades y diseñamos soluciones digitales claras, posibles y aplicables.
+      </p>
+    </div>
+
+    <div class="steps reveal">
+      <div>
+        <strong>01</strong>
+        <h3>Escuchamos</h3>
+        <p>Conocemos objetivos, necesidades y forma de trabajo.</p>
+      </div>
+
+      <div>
+        <strong>02</strong>
+        <h3>Analizamos</h3>
+        <p>Revisamos procesos, datos y puntos de mejora.</p>
+      </div>
+
+      <div>
+        <strong>03</strong>
+        <h3>Diseñamos</h3>
+        <p>Armamos una propuesta digital adaptada a cada empresa.</p>
+      </div>
+
+      <div>
+        <strong>04</strong>
+        <h3>Presentamos</h3>
+        <p>Definimos herramientas, recomendaciones y próximos pasos.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section soluciones-section">
+  <div class="split reverse">
+    <img src="imagenes/segundaimagen.png" class="feature-img reveal" alt="Procesos digitales" />
+
+    <div class="reveal">
+      <p class="eyebrow">SOLUCIONES</p>
+
+      <h2>Ideas digitales pensadas para problemas reales.</h2>
+
+      <ul class="check-list">
+        <li>Automatización de procesos administrativos.</li>
+        <li>Organización de datos para decidir mejor.</li>
+        <li>Uso de inteligencia artificial en tareas concretas.</li>
+        <li>Mejora de la experiencia del cliente.</li>
+        <li>Propuestas simples, visuales y aplicables.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="final-cta">
+  <div class="reveal">
+    <h2>Hagamos que la tecnología sea una oportunidad real.</h2>
+
+    <p class="section-subtitle">
+      Contanos tu idea, desafío o proyecto — TECH7 lo soluciona.
+    </p>
+
+    <a href="#contacto" class="main-btn">Enviar consulta →</a>
+  </div>
+</section>
+
+<section id="equipo" class="section team-section">
+  <div class="section-header reveal">
+    <p class="eyebrow">EQUIPO</p>
+
+    <h2>Cinco estudiantes con mirada joven, creativa y tecnológica.</h2>
+
+    <p class="section-subtitle">
+      Combinamos estrategia, creatividad y una forma cercana de acompañar.
+    </p>
+  </div>
+
+  <div class="team-grid">
+    <article class="team-card reveal">
+      <img src="imagenes/milagros.png" alt="Milagros Pombo" />
+      <h3>Milagros Pombo</h3>
+      <p class="role">Estrategia y comunicación</p>
+      <p>“Transformar ideas complejas en mensajes claros.”</p>
+    </article>
+
+    <article class="team-card reveal">
+      <img src="imagenes/mia.png" alt="Mia Merlis" />
+      <h3>Mia Merlis</h3>
+      <p class="role">Análisis digital</p>
+      <p>“Encontrar oportunidades en procesos para mejorar.”</p>
+    </article>
+
+    <article class="team-card reveal">
+      <img src="imagenes/sofia.png" alt="Sofia Garrabos" />
+      <h3>Sofia Garrabos</h3>
+      <p class="role">UX/UI</p>
+      <p>“Diseñar tecnología fácil de entender y usar.”</p>
+    </article>
+
+    <article class="team-card reveal">
+      <img src="imagenes/clara.png" alt="Clara Diaz" />
+      <h3>Clara Diaz</h3>
+      <p class="role">Procesos</p>
+      <p>“Ordenar bien para crecer mejor.”</p>
+    </article>
+
+    <article class="team-card reveal">
+      <img src="imagenes/camila.png" alt="Camila del Val" />
+      <h3>Camila del Val</h3>
+      <p class="role">Innovación</p>
+      <p>“Usar tecnología para resolver necesidades reales.”</p>
+    </article>
+  </div>
+</section>
+
+<footer id="contacto" class="footer">
+  <div class="footer-brand reveal">
+    <h2>TECH7</h2>
+    <p>Soluciones digitales simples para empresas que quieren crecer.</p>
+    <p>tech7consultora@gmail.com</p>
+    <p>Instagram: @tech7.digital</p>
+    <p>LinkedIn: TECH7</p>
+  </div>
+
+  <div class="contact-form reveal">
+    <h3>Hablemos</h3>
+
+    <p class="form-intro">
+      Contanos tu idea, desafío o proyecto — TECH7 lo soluciona.
+    </p>
+
+    <form id="contactForm">
+      <input type="text" placeholder="Nombre" required />
+      <input type="email" placeholder="Email" required />
+      <textarea placeholder="Escribí tu consulta" required></textarea>
+      <button type="submit">Enviar consulta</button>
+    </form>
+  </div>
+
+  <div class="footer-links reveal">
+    <h3>Explorar</h3>
+    <a href="#conocenos">Conocé a TECH7</a>
+    <a href="#proceso-trabajo">Proceso de trabajo</a>
+    <a href="#equipo">Equipo</a>
+    <a href="#contacto">Hablemos</a>
+  </div>
+
+  <div id="successPopup" class="success-popup">
+    <div class="success-content">
+      <h3>✓ Consulta enviada</h3>
+      <p>Gracias por contactarte con TECH7. Nos comunicaremos a la brevedad.</p>
+      <button onclick="closeSuccess()">Entendido</button>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
